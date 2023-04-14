@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amar.library.ui.StickyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ProductActivity"
+    app:stickyFooter="@id/productFooter"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/product_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/productBrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LoremIpsum"
+                android:layout_marginLeft = "12dp"
+                android:layout_marginRight = "12dp"
+                android:textSize = "22dp"
+                android:tint="@color/black"
+                app:fontFamily="@font/raleway_bold" />
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LoremIpsum"
+                android:layout_marginLeft = "12dp"
+                android:layout_marginRight = "12dp"
+                android:textSize = "18dp"
+                android:tint="@color/black"
+                app:fontFamily="@font/raleway_bold" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/price1"
+                android:layout_marginLeft = "12dp"
+                android:layout_marginRight = "12dp"
+                android:layout_marginBottom = "12dp"
+                android:textSize = "16dp"
+                app:fontFamily="@font/raleway_medium" />
+
+            <TextView
+                android:id="@+id/productDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:text="@string/lorem50"
+                app:fontFamily="@font/raleway_medium" />
+
+            <TextView
+                android:id="@+id/item_dimensions1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop = "12dp"
+                android:text=""
+                app:fontFamily="@font/raleway_medium" />
+
+            <TextView
+                android:id="@+id/item_dimensions2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop = "5dp"
+                android:text=""
+                app:fontFamily="@font/raleway_medium" />
+
+            <TextView
+                android:id="@+id/item_dimensions3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop = "5dp"
+                android:text=""
+                app:fontFamily="@font/raleway_medium" />
+
+            <TextView
+                android:id="@+id/item_dimensions4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop = "5dp"
+                android:text=""
+                app:fontFamily="@font/raleway_medium" />
+
+            <TextView
+                android:id="@+id/item_dimensions5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop = "5dp"
+                android:text=""
+                app:fontFamily="@font/raleway_medium" />
+
+            <TextView
+                android:id="@+id/item_dimensions6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop = "5dp"
+                android:text=""
+                app:fontFamily="@font/raleway_medium" />
+
+            <LinearLayout
+                android:id="@+id/productFooter"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="1">
+
+            <com.marozzi.roundbutton.RoundButton
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="center"
+                app:rb_background_color="@color/primary"
+                app:rb_corner_radius="15dp"
+                app:rb_text_color="@color/white"
+                android:layout_marginLeft="12sp"
+                android:layout_marginBottom="12sp"
+                android:id="@+id/addToCartButton"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:text="Add to Cart"
+                android:layout_weight="0.5"
+                android:background="@color/primary"
+                android:backgroundTint="@color/primary"/>
+
+            <com.marozzi.roundbutton.RoundButton
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="center"
+                app:rb_background_color="@color/primary"
+                app:rb_corner_radius="15dp"
+                app:rb_text_color="@color/white"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="12sp"
+                android:layout_marginBottom="12sp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/arViewButton"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:text="AR View"
+                android:layout_weight="0.5"
+                android:background="@color/primary"
+                android:backgroundTint="@color/primary"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</com.amar.library.ui.StickyScrollView>

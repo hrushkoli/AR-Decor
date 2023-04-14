@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SignupActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:src="@drawable/ardecorcondensed"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+
+        <EditText
+            android:id="@+id/firstnameView"
+            android:fontFamily="@font/raleway_medium"
+            android:layout_marginLeft = "20dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:inputType="text"
+            android:layout_marginRight = "20dp"
+            android:hint="Firstname"
+            />
+        <EditText
+            android:id="@+id/lastnameView"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/raleway_medium"
+            android:layout_marginLeft = "20dp"
+            android:layout_height="80dp"
+            android:inputType="text"
+            android:layout_marginRight = "20dp"
+            android:hint="Lastname"
+            />
+    <EditText
+        android:id="@+id/usernameView"
+        android:layout_width="match_parent"
+        android:layout_marginLeft = "20dp"
+        android:fontFamily="@font/raleway_medium"
+        android:layout_marginRight = "20dp"
+        android:layout_height="80dp"
+        android:inputType="text"
+        android:hint="Username"
+        />
+
+    <EditText
+        android:id="@+id/passwordView"
+        android:layout_width="match_parent"
+        android:layout_marginLeft = "20dp"
+        android:layout_marginRight = "20dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/raleway_medium"
+        android:inputType="textPassword"
+        android:hint="Password"
+        />
+
+    <EditText
+        android:id="@+id/phoneView"
+        android:layout_width="match_parent"
+        android:layout_marginLeft = "20dp"
+        android:layout_marginRight = "20dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/raleway_medium"
+        android:inputType="text"
+        android:hint="Phone Number"
+        />
+    <EditText
+        android:id="@+id/cityView"
+        android:layout_width="match_parent"
+        android:layout_marginLeft = "20dp"
+        android:layout_marginRight = "20dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/raleway_medium"
+        android:inputType="text"
+        android:hint="City"
+        />
+
+
+    <com.marozzi.roundbutton.RoundButton
+        android:id="@+id/signupBtn"
+        android:fontFamily="@font/raleway_bold"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Sign up"
+        app:rb_background_color="@color/primary"
+        app:rb_corner_radius="15dp"
+        app:rb_text_color="@color/white"
+        />
+    <TextView
+        android:id="@+id/errorView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AR Decor</string>
+    <string name="lorem50">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet tortor ut ante efficitur dignissim ac sed purus. Nulla placerat justo metus, vitae efficitur velit vulputate vel. Nulla quis cursus elit, eget porta lorem. Maecenas facilisis arcu urna, sed pellentesque nisl scelerisque sit amet. Aliquam porttitor odio at egestas dictum. Maecenas fringilla lobortis sapien, sed finibus lectus faucibus in. Vestibulum eu velit sit amet ex tincidunt convallis. Curabitur sed orci eu tortor tempor feugiat. Curabitur eu neque vestibulum, tempus tortor nec, consequat arcu. Etiam ipsum elit, sodales id tincidunt id, viverra at lectus. Nulla lacinia luctus orci, id gravida mi facilisis id.
+
+Phasellus libero dui, luctus quis quam et, gravida tempor dolor. Etiam dictum euismod enim id sollicitudin. Donec neque lacus, faucibus et justo sed, tincidunt ultricies augue. Sed condimentum risus in lacus vestibulum efficitur. Quisque varius a mi ut auctor. Ut nisl enim, volutpat a enim a, ullamcorper cursus eros. Aliquam erat volutpat. Ut vulputate sem eget est elementum ultricies. Duis sapien eros, rutrum sit amet iaculis in, lacinia vitae elit. Nam at sem at eros sodales scelerisque.
+
+Maecenas faucibus, nisl at rhoncus pellentesque, lacus ex blandit ligula, sed dapibus enim nulla ac augue. Vivamus maximus, enim eget tincidunt pretium, nisi sem mattis purus, quis finibus urna est sit amet sapien. Cras feugiat scelerisque maximus. Suspendisse vel ligula ligula. Pellentesque quis urna ac nulla eleifend semper eget non erat. Nulla eu dolor eu felis hendrerit suscipit. Suspendisse porttitor suscipit sagittis.
+
+Quisque imperdiet quam neque, eget blandit velit auctor eget. Nullam nec volutpat leo, et volutpat lorem. Curabitur ac eros vel ex pellentesque eleifend sit amet consequat mi. Cras aliquam ex sed lacus fringilla, pellentesque scelerisque mauris convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus leo vitae libero vulputate lobortis. Suspendisse commodo dictum nisl nec sodales. Cras sed accumsan mi. Nam eu urna tellus. Curabitur mattis cursus libero, id porttitor metus eleifend at. Maecenas scelerisque ligula sed iaculis posuere. Etiam sit amet interdum magna. Cras nec suscipit enim. Sed tincidunt ut odio id finibus.
+
+Aliquam rutrum nunc ac aliquam sodales. Mauris scelerisque erat tortor, quis pharetra magna eleifend non. In hac habitasse platea dictumst. Praesent nibh dolor, gravida et arcu a, pharetra iaculis quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque dictum lobortis felis pulvinar venenatis. Sed euismod arcu erat, vitae rutrum magna sagittis id. Phasellus et est vitae massa rutrum varius non vel tortor. Quisque feugiat quis sem vitae semper. Sed ut est a sapien bibendum vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut suscipit, est in rutrum elementum, risus sapien molestie leo, non tempus massa odio at libero. Integer finibus fermentum ipsum sed fringilla. Pellentesque porttitor ante luctus elit lacinia, et tempus tortor commodo. Nunc vitae sollicitudin enim, ut semper arcu. Curabitur dapibus odio ut nibh congue tempus. </string>
+
+    <string name="price1">
+        ₹15,000
+    </string>
+    <string name="game_view_content_description">Game View</string>
+
+    <string-array name="items_full_txt">
+        <item>Couch</item>
+        <item>Bed</item>
+        <item>Chair</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

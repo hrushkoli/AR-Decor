@@ -1,0 +1,3 @@
+rootProject.name = "ARDecor"
+include ':app'
+include ':unityLibrary'

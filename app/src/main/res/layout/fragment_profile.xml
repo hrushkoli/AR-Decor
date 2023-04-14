@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ProfileFragment">
+
+    <com.amar.library.ui.StickyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activities.ProfileActivity"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop = "16sp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_marginLeft = "16sp"
+        android:layout_marginRight = "16sp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hi, "
+                android:fontFamily = "@font/raleway_bold"
+                android:textSize="24sp"
+                />
+            <TextView
+                android:id="@+id/nameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:fontFamily = "@font/raleway_bold"
+                android:textSize="24sp"
+                />
+            <TextView
+                android:id="@+id/logoutBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Log out"
+                android:fontFamily = "@font/raleway_medium"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
+        <!--    Divider -->
+        <View
+            android:layout_marginTop="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/grey" />
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/myAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24sp"
+                android:layout_marginBottom="24sp"
+                android:text="Account"
+                android:textSize="14sp"
+                android:fontFamily="@font/raleway_medium"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey" />
+            <TextView
+                android:id="@+id/viewCart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24sp"
+                android:layout_marginBottom="24sp"
+                android:text="Cart"
+                android:textSize="14sp"
+                android:fontFamily="@font/raleway_medium"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey" />
+            <TextView
+                android:id="@+id/viewPurchases"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24sp"
+                android:layout_marginBottom="24sp"
+                android:text="Purchases"
+                android:textSize="14sp"
+                android:fontFamily="@font/raleway_medium"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey" />
+            <TextView
+                android:id="@+id/settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24sp"
+                android:layout_marginBottom="24sp"
+                android:text="Settings"
+                android:textSize="14sp"
+                android:fontFamily="@font/raleway_medium"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey" />
+            <TextView
+                android:id="@+id/policies"
+                android:layout_marginTop="24sp"
+                android:layout_marginBottom="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Policies"
+                android:textSize="14sp"
+                android:fontFamily="@font/raleway_medium"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey" />
+            <TextView
+                android:id="@+id/feedback"
+                android:layout_marginTop="24sp"
+                android:layout_marginBottom="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feedback"
+                android:textSize="14sp"
+                android:fontFamily="@font/raleway_medium"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey" />
+            <TextView
+                android:id="@+id/aboutTheApp"
+                android:layout_marginTop="24sp"
+                android:layout_marginBottom="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About the app"
+                android:textSize="14sp"
+                android:fontFamily="@font/raleway_medium"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="230sp"/>
+
+    </LinearLayout>
+    </com.amar.library.ui.StickyScrollView>
+
+</FrameLayout>
